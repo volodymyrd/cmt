@@ -1,5 +1,5 @@
 [workspace]
-members = ["main"]
+members = [ "grep","main"]
 
 resolver = "2"
 

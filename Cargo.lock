@@ -3,5 +3,9 @@
 version = 3
 
 [[package]]
+name = "cmt-grep"
+version = "0.1.0"
+
+[[package]]
 name = "cmt-main"
 version = "0.1.0"
