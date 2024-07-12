@@ -1,5 +1,5 @@
 [workspace]
-members = [ "grep","main"]
+members = ["cli", "grep", "main", "searcher"]
 
 resolver = "2"
 
@@ -13,3 +13,5 @@ license = "Unlicense OR MIT"
 edition = "2021"
 
 [workspace.dependencies]
+clap = { version = "4.5.8", features = ["cargo"] }
+cmt-cli = { path = "cli", version = "=0.1.0" }
